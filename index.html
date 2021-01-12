@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Крестики-нолики</h1>
+	<p class="descript">Простая игра в крестики нолики. Первым ходит победитель</p>
+	<h2>Ход</h2>
+	<p class="ktohodit">Ходит <span id="plrnow"></span> игрок - <span id="znak"></span></p>
+	<div class="cnv"><canvas id="canvas"></canvas></div>
+	<h2>Количество побед</h2>
+	<div class="schet">
+		<p>Игрок X: <span id="player1">0</span></p>
+		<p>Игрок O: <span id="player2">0</span></p>
+	</div>
+	<div class="buttons">
+		<form>
+            <input type="button" id="reset" value="Сброс">
+			<input type="button" id="newraund" value="Новый раунд">
+			
+		</form>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
